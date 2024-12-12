@@ -34,7 +34,7 @@ https://developer.work.weixin.qq.com/document/path/96252
 ## LDAP
 需要部署一个LDAP服务器，可以使用OpenLDAP、Microsoft AD、群晖NAS的LDAP套件都可以，如果有群晖NAS推荐使用LDAP套件，因为它比其他LDAP有更直观更友好的UI管理界面，即使非运维人员也能轻松地完成配置。
 
-部署好LDAP后需要添加个用户组
+部署好LDAP后需要添加个用户组`cn=users`
 
 # 开始使用
 **修改配置文件**
