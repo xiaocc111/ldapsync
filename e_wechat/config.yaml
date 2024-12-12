@@ -1,0 +1,19 @@
+ewechat:
+  # 企业微信获取token的API接口
+  token_url: https://qyapi.weixin.qq.com/cgi-bin/gettoken
+  # 你的企业ID
+  corpid: xxxxxxxxxxxxxxxxxx
+  # 你的应用的secret
+  corpsecret: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  # 你想要获取的部门ID
+  department_id: 1
+
+ldap:
+  # ldap服务器地址
+  ldap_server: ldap://192.168.1.190:389
+  # 替换为你的管理员 DN
+  ldap_user: cn=admin,dc=test,dc=cn
+  # 替换为你的管理员密码
+  ldap_password: Jh@2022
+  # 替换为你的基础 DN
+  base_dn: dc=test,dc=cn
